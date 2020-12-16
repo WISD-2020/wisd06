@@ -55,3 +55,6 @@ Route::get('/cc/c1', function (){
 Route::get('/cc/c2', function (){
     return view('cc.c2');
 });
+Route::get('/gg/g1', function (){
+    return view('gg.g1');
+});
